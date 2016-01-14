@@ -20,15 +20,57 @@ h2 {
   border-bottom: solid black 1px;
 }
 
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: calc(100% + 0.6vw);
+  text-align: left;
+}
+
+#columns-container {
+   width: 100%;
+   padding-bottom: 60%;
+}
+
+#column-one {
+   width: 50%;
+   float: left;
+}
+#column-two {
+   width: 50%;
+   float: right;
+}
+
+footer {
+  border-top: solid black 1px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  padding: 2%;
+  width: 100%;
+  font-size: calc(70% + 0.4vw);
+}
+
 .main {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%
 }
 
-footer {
-  border-top: solid black 1px;
-  text-align: center;
-  padding: 4%;
-  width: 100%;
+#clear {
+  clear: both;
+}
+
+@media all and (max-width: 480px) {
+  #column-one, #column-two {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  #columns-container {
+   padding-bottom: 10%;
+  }
+
+  footer {
+    padding: 0%;
+  }
 }
