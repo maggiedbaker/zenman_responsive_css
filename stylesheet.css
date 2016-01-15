@@ -3,8 +3,35 @@ header {
   padding: 5%;
 }
 
+.row-icon {
+  width: 10%;
+}
+
+.material-icons {
+  padding-right: 5%;
+  font-size: 0.6vw;
+}
+
+.icon {
+  max-width: 60%;
+  padding-top: 15%;
+}
+
+.contact {
+  color: #FA9522;
+  font-family: 'Raleway', sans-serif;
+  font-size: calc(70% + 0.6vw);
+}
+
+a {
+  color: #FA9522;
+  font-family: 'Quicksand', sans-serif;
+  font-size: calc(70% + 0.6vw);
+  display: inline-block;
+}
+
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 h2 {
@@ -22,7 +49,7 @@ h2 {
 
 h3 {
   font-family: 'Quicksand', sans-serif;
-  font-size: calc(100% + 0.6vw);
+  font-size: calc(80% + 0.6vw);
   text-align: left;
 }
 
